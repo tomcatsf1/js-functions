@@ -141,8 +141,13 @@ console.log(howMany)
  * This function will return the string "Last night I dreamt that I ate `x` Taco Bell soft tacos."  Where `x` is the value when you invoke the function. Invoke this function using the variable `difference`.
  * Console.log your results.
 */ 
+function checkDifference(x){
+    var x = 5000
+    return "Last night I dreamt that I ate " + x + " Taco Bell soft tacos."
 
-
+}
+var difference = checkDifference()
+console.log(difference)
 
 /*
  * #8
@@ -154,8 +159,12 @@ console.log(howMany)
  * This function will multiply the values stored in the sum and product variables.
  * Console.log your result.  
 */
+function checkProduct(){
+    return sum * product;
 
-
+}
+var multiply = checkProduct();
+console.log(multiply)
 
 /*
  * #9
@@ -167,7 +176,13 @@ console.log(howMany)
  * This function will multiply the values stored in the product and quotient variables.
  * Console.log your result.  
 */
+function checkQuotient(){
+    return bango1 / bango2
 
+
+}
+var quotient = checkQuotient()
+console.log(quotient)
 /*
  * Declare three variables
  *   @variable Datatype: Number `bango3`
@@ -188,7 +203,20 @@ console.log(howMany)
  * Console.log your result.
 */ 
 
+var bango3 = 5;
+var bango4 = 5;
+var bango5 = 2;
 
+
+function addThenSubtract(num1, num2, num3){
+    var num1 = bango3;
+    var num2 = bango4;
+    var num3 = bango5;
+    return num1 + num2 - num3;
+
+}
+var solution = addThenSubtract()
+console.log(solution)
 
 /*
  * #11
